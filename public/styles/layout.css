@@ -30,6 +30,10 @@ body {
   background-color: #f4f1ec;
 }
 
+.new-tweet {
+  width: 50%;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
