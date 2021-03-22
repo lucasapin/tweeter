@@ -1,0 +1,14 @@
+.myNav {
+  display: flex;
+  height: 120px;
+  background-color:#4056A1 ;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.logo {
+  font-size:40px;
+  font-family: 'Bungee', cursive;
+  padding: 1.5em;
+  color: #FFFFFF;
+}
