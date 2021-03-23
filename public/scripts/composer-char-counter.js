@@ -9,4 +9,12 @@ $("#tweet-text").on("keypress change", (event) => {
     $("output.counter").removeClass("negativeCount");
   }
 })
+
+$(".tweet").on("mouseover", () => {
+$(".userId").removeClass("userIdTag")
+})
+
+$(".tweet").on("mouseout", () => {
+  $(".userId").addClass("userIdTag")
+  })
 });
