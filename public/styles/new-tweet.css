@@ -13,6 +13,13 @@ main div {
   justify-content: space-between;
 }
 
+.new-tweet {
+
+  margin-top: 2em;
+  margin-left: 2em;
+
+}
+
 #tweet-text {
   width: 100%;
   font-size: 20px;
@@ -92,5 +99,10 @@ article:hover {
 
 .icons i{
   padding: 0.25em;
+}
+
+.error-message {
+  display: flex;
+  width: 50%;
 }
 
