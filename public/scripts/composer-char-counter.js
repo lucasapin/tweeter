@@ -10,12 +10,11 @@ $(document).ready(function () {
     }
   })
 
-  $(".container").on("mouseover", () => {
-    console.log("*****")
+  $("#tweets-container").on("mouseover", () => {
     $(".userId").removeClass("userIdTag")
   })
 
-  $(".container").on("mouseout", () => {
+  $("#tweets-container").on("mouseout", () => {
     $(".userId").addClass("userIdTag")
   })
 });
