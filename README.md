@@ -11,6 +11,13 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
+## Final Product
+
+!["Create a new tweet page, rendered in a screen smaller than 1024px"](https://github.com/lucasapin/tweeter/blob/master/public/images/Tweeter_iPad.png?raw=true)
+!["Create a new tweet page, rendered in a screen bigger than 1024px"](https://github.com/lucasapin/tweeter/blob/master/public/images/Tweeter_Desktop.png?raw=true)
+
+
+
 ## Dependencies
 
 - Express
