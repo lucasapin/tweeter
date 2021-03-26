@@ -39,31 +39,29 @@ body {
 }
 
 main.container {
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
-@media (min-width: 576px) {  
- 
-}
+
 
 @media (min-width: 1024px) {  
   .mainWrap {
     display:grid;
     grid-template-columns: 40% 60%;
   }
-  .mainHeader {
-    padding: 0 5%;
-  }
   
   main.container {
     padding: 0 5%;
+    
   }
-
+  
   .mainHeader div img {
     display: block;
     width: 70%;
   }
   .mainHeader{
+    padding: 0 5%;
     display: block;
     margin-top: 100px;
     padding-top: 100px;
